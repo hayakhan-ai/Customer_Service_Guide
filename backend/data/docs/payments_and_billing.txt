@@ -1,0 +1,28 @@
+PAYMENTS AND BILLING - CUSTOMER SUPPORT GUIDE
+
+Q: What payment methods do you accept?
+A: We accept Visa, MasterCard, American Express, PayPal, Apple Pay, Google Pay, and store gift cards. All transactions are encrypted and processed securely.
+
+Q: Is it safe to enter my credit card on your website?
+A: Yes. Our website uses SSL encryption and is PCI-DSS compliant. We do not store your full credit card number on our servers. Payments are processed through trusted third-party payment gateways.
+
+Q: Why was my payment declined?
+A: Payments can be declined for several reasons including incorrect card details, insufficient funds, bank restrictions on online purchases, or your card's daily spending limit being reached. Please double-check your details or try a different payment method. Contact your bank if the issue continues.
+
+Q: Can I use multiple payment methods for one order?
+A: You can combine one gift card with one credit or debit card for a single order. Splitting payments between two credit cards is not currently supported.
+
+Q: Do you offer buy now, pay later?
+A: Yes. We partner with Klarna and Afterpay. At checkout, select your preferred buy now pay later option and follow their approval process. Orders are typically split into 4 equal payments.
+
+Q: Will I be charged sales tax?
+A: Sales tax is applied based on your shipping address and local tax laws. The tax amount will be shown at checkout before you confirm your order.
+
+Q: I was charged twice for my order. What should I do?
+A: This may be a temporary authorization hold, which usually disappears within 3–5 business days. If the duplicate charge persists, contact us at billing@ourstore.com with your order number and we will resolve it immediately.
+
+Q: How do gift cards work?
+A: Gift cards can be purchased on our website in any amount from $10 to $500. They are delivered via email and never expire. To redeem, enter the gift card code at checkout in the "Gift Card" field.
+
+Q: Can I get an invoice for my order?
+A: Yes. A PDF invoice is automatically attached to your order confirmation email. You can also download it anytime from the "My Orders" section of your account.

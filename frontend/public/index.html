@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ShopOps BOT — CUSTOMER SUPPORT GUIDE</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+:root {
+  --bg:#0b0c10;
+  --panel:#15171d;
+  --panel2:#1b1e27;
+  --border:#2a2f3a;
+  --text:#e6e8ee;
+  --muted:#8b93a7;
+  --accent:#47ffe0;
+  --accent2:#7cff47;
+}
+
+/* ───────── LAYOUT ───────── */
+body {
+  background:var(--bg);
+  color:var(--text);
+  font-family:DM Sans;
+  height:100vh;
+  display:flex;
+  overflow:hidden;
+}
+
+/* ───────── SIDEBAR ───────── */
+.sidebar {
+  width:260px;
+  background:var(--panel);
+  border-right:1px solid var(--border);
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.brand {
+  font-family:Syne;
+  font-weight:800;
+  font-size:18px;
+  color:var(--accent);
+}
+
+.menu {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.menu-item {
+  padding:10px 12px;
+  background:var(--panel2);
+  border:1px solid var(--border);
+  border-radius:10px;
+  font-size:13px;
+  color:var(--text);
+  cursor:pointer;
+}
+
+.menu-item:hover {
+  border-color:var(--accent);
+  color:var(--accent);
+}
+
+/* ───────── MAIN ───────── */
+.main {
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+
+/* ───────── TOP BAR ───────── */
+.topbar {
+  height:60px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 20px;
+  background:var(--panel);
+  border-bottom:1px solid var(--border);
+}
+
+.status {
+  font-size:12px;
+  color:var(--muted);
+}
+
+/* ───────── KPI ROW ───────── */
+.kpis {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  padding:15px;
+}
+
+.card {
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:14px;
+}
+
+.card h3 {
+  font-size:12px;
+  color:var(--muted);
+}
+
+.card p {
+  font-size:20px;
+  margin-top:6px;
+  color:var(--accent);
+  font-weight:700;
+}
+
+/* ───────── CONTENT AREA ───────── */
+.content {
+  flex:1;
+  display:flex;
+  gap:12px;
+  padding:0 15px 15px;
+  overflow:hidden;
+}
+
+/* ───────── CHAT PANEL ───────── */
+.chat {
+  flex:2;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:14px;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+}
+
+.messages {
+  flex:1;
+  padding:20px;
+  overflow:auto;
+}
+
+.msg {
+  margin-bottom:12px;
+  max-width:80%;
+  padding:10px 14px;
+  border-radius:12px;
+  font-size:13px;
+}
+
+.user {
+  background:var(--accent);
+  color:#000;
+  margin-left:auto;
+}
+
+.bot {
+  background:var(--panel2);
+  border:1px solid var(--border);
+}
+
+/* ───────── INPUT ───────── */
+.input {
+  display:flex;
+  padding:12px;
+  border-top:1px solid var(--border);
+  gap:10px;
+}
+
+input {
+  flex:1;
+  padding:10px;
+  background:var(--panel2);
+  border:1px solid var(--border);
+  border-radius:10px;
+  color:var(--text);
+}
+
+button {
+  padding:10px 14px;
+  background:var(--accent);
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+/* ───────── RIGHT PANEL ───────── */
+.right {
+  flex:1;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:15px;
+}
+
+.log {
+  font-size:12px;
+  color:var(--muted);
+  line-height:1.6;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="brand">ShopOps AI</div>
+
+  <div class="menu">
+    <div class="menu-item">📦 Orders</div>
+    <div class="menu-item">💳 Billing</div>
+    <div class="menu-item">🚚 Shipping</div>
+    <div class="menu-item">📊 Inventory</div>
+    <div class="menu-item">↩ Returns</div>
+    <div class="menu-item">👤 Customers</div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <div class="topbar">
+    <div>Customer Support Guide</div>
+    <div class="status">System Online • FastAPI Connected</div>
+  </div>
+
+  <!-- KPI -->
+  <div class="kpis">
+    <div class="card"><h3>Orders</h3><p>1,284</p></div>
+    <div class="card"><h3>Revenue</h3><p>$48.2K</p></div>
+    <div class="card"><h3>Refunds</h3><p>32</p></div>
+    <div class="card"><h3>Pending Shipments</h3><p>78</p></div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+
+    <!-- CHAT -->
+    <div class="chat">
+      <div class="messages" id="messages"></div>
+
+      <div class="input">
+        <input id="userInput" placeholder="Query orders, billing, inventory..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right">
+      <h3 style="margin-bottom:10px;">System Logs</h3>
+      <div class="log">
+        ✔ FastAPI connected<br/>
+        ✔ Vector DB active<br/>
+        ✔ Retrieval pipeline ready<br/>
+        ⚠ 2 delayed shipments detected<br/>
+        ✔ Payment gateway stable<br/>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const API_URL = "http://127.0.0.1:8000/chat-stream";
+
+const messagesEl = document.getElementById("messages");
+const inputEl = document.getElementById("userInput");
+
+function addMsg(text, type){
+  const div = document.createElement("div");
+  div.className = "msg " + type;
+  div.textContent = text;
+  messagesEl.appendChild(div);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+async function sendMessage(){
+  const q = inputEl.value;
+  if(!q) return;
+
+  addMsg(q, "user");
+  inputEl.value = "";
+
+  const res = await fetch(API_URL, {
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({question:q})
+  });
+
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+
+  let botMsg = document.createElement("div");
+  botMsg.className = "msg bot";
+  messagesEl.appendChild(botMsg);
+
+  while(true){
+    const {done,value} = await reader.read();
+    if(done) break;
+    botMsg.textContent += decoder.decode(value);
+  }
+}
+</script>
+
+</body>
+</html>

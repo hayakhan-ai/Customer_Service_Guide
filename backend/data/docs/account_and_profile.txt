@@ -1,0 +1,25 @@
+ACCOUNT AND PROFILE - CUSTOMER SUPPORT GUIDE
+
+Q: How do I create an account?
+A: Click "Sign Up" at the top right of our website. Enter your name, email address, and a password. Verify your email by clicking the link we send you, and your account will be ready.
+
+Q: Can I shop without creating an account?
+A: Yes. We offer a guest checkout option. However, creating an account lets you track orders, save addresses, view order history, and earn loyalty points.
+
+Q: How do I reset my password?
+A: Click "Forgot Password" on the login page. Enter your registered email address and we will send you a reset link. The link is valid for 30 minutes. If you don't see the email, check your spam folder.
+
+Q: How do I update my email address or personal information?
+A: Log in and go to "My Account" then "Profile Settings." You can update your name, email, phone number, and password there. For security, updating your email requires re-entering your current password.
+
+Q: How do I save a shipping address?
+A: In "My Account," go to "Addresses" and click "Add New Address." You can save multiple addresses and set one as your default for faster checkout.
+
+Q: How do I delete my account?
+A: To delete your account, email us at privacy@ourstore.com with the subject line "Account Deletion Request." We will process your request within 7 business days. Please note that deleting your account is permanent and all order history will be lost.
+
+Q: I can't log in to my account. What should I do?
+A: First try resetting your password. If that doesn't work, make sure you are using the correct email address. If your account was created using Google or Facebook login, use that option instead. Contact support if the issue continues.
+
+Q: How does the loyalty points program work?
+A: You earn 1 point for every $1 spent. Points can be redeemed at checkout where 100 points equals $1 off your order. Points expire after 12 months of account inactivity.
